@@ -1,0 +1,53 @@
+Elementos a probar :
+Código: 50  | Nombre: Laptop HP          | Precio: 2500.00
+Código: 30  | Nombre: Mouse Logitech     | Precio: 45.50
+Código: 70  | Nombre: Monitor Samsung    | Precio: 850.00
+Código: 20  | Nombre: Teclado Mecánico   | Precio: 120.00
+Código: 40  | Nombre: Webcam HD          | Precio: 95.75
+Código: 60  | Nombre: Auriculares Sony   | Precio: 180.00
+Código: 10  | Nombre: Cable USB          | Precio: 15.00
+Código: 80  | Nombre: Disco Duro 1TB     | Precio: 250.00
+Código: 35  | Nombre: Mousepad Gamer     | Precio: 25.50
+Código: 65  | Nombre: Micrófono Blue     | Precio: 320.00
+Ordenamiento: 
+                   50
+                   /  \
+                  /    \
+                30      70
+               /  \    /  \
+              20  40  60  80
+             /      \   \
+            10      35  65
+Inorde (izq,ra,de)
+10 - Cable USB
+20 - Teclado Mecánico
+30 - Mouse Logitech
+35 - Mousepad Gamer
+40 - Webcam HD
+50 - Laptop HP
+60 - Auriculares Sony
+65 - Micrófono Blue
+70 - Monitor Samsung
+80 - Disco Duro 1TB
+PreOrden (ra,iz,de)
+50 - Laptop HP          ← Raíz primero
+30 - Mouse Logitech
+20 - Teclado Mecánico
+10 - Cable USB
+40 - Webcam HD
+35 - Mousepad Gamer
+70 - Monitor Samsung
+60 - Auriculares Sony
+65 - Micrófono Blue
+80 - Disco Duro 1TB
+postorde(izq,der,raz)
+10 - Cable USB
+20 - Teclado Mecánico
+35 - Mousepad Gamer
+40 - Webcam HD
+30 - Mouse Logitech
+65 - Micrófono Blue
+60 - Auriculares Sony
+80 - Disco Duro 1TB
+70 - Monitor Samsung
+50 - Laptop HP          ← Raíz al final
